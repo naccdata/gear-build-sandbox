@@ -2,7 +2,7 @@
 
 import logging
 
-log = logging.getLogger(__name__)
+log = logging.getLogger(__name__).setLevel(logging.INFO)
 
         
 def main():
