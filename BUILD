@@ -1,5 +1,5 @@
 __defaults__({
-  pex_binary: dict(environment="linux"),
+  pex_binary: dict(environment="local"),
   docker_image: dict(build_platform=["linux/amd64"]),
 })
 
